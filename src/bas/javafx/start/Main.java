@@ -16,7 +16,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception {
         Button button = new Button("OK Control");
         Text text = new Text(11,10,"Text control");
-        text.setFont(new Font(24));
+        text.setFont(new Font(26));
         BorderPane pane = new BorderPane();
         pane.setCenter(button);
         pane.setTop(text);
